@@ -1,0 +1,245 @@
+
+*************************
+Step: 1
+ID: 6
+EXE_STACK:
+[(Ref(int) v;;(new ( v,20);(print(readHeapExp(v));(heapWrite ( v, 30 ) ;print(readHeapExp(v))))))]
+SYM_TABLE:
+[]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 2
+ID: 6
+EXE_STACK:
+[(new ( v,20);(print(readHeapExp(v));(heapWrite ( v, 30 ) ;print(readHeapExp(v))))), Ref(int) v;]
+SYM_TABLE:
+[]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 3
+ID: 6
+EXE_STACK:
+[(new ( v,20);(print(readHeapExp(v));(heapWrite ( v, 30 ) ;print(readHeapExp(v))))), Ref(int) v;]
+SYM_TABLE:
+[]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 4
+ID: 6
+EXE_STACK:
+[(new ( v,20);(print(readHeapExp(v));(heapWrite ( v, 30 ) ;print(readHeapExp(v)))))]
+SYM_TABLE:
+[v=(1 ,int)]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 5
+ID: 6
+EXE_STACK:
+[(new ( v,20);(print(readHeapExp(v));(heapWrite ( v, 30 ) ;print(readHeapExp(v)))))]
+SYM_TABLE:
+[v=(1 ,int)]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 6
+ID: 6
+EXE_STACK:
+[(print(readHeapExp(v));(heapWrite ( v, 30 ) ;print(readHeapExp(v)))), new ( v,20)]
+SYM_TABLE:
+[v=(1 ,int)]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 7
+ID: 6
+EXE_STACK:
+[(print(readHeapExp(v));(heapWrite ( v, 30 ) ;print(readHeapExp(v)))), new ( v,20)]
+SYM_TABLE:
+[v=(1 ,int)]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 8
+ID: 6
+EXE_STACK:
+[(print(readHeapExp(v));(heapWrite ( v, 30 ) ;print(readHeapExp(v))))]
+SYM_TABLE:
+[v=(1 ,int)]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+1 -> 20
+
+*************************
+Step: 9
+ID: 6
+EXE_STACK:
+[(print(readHeapExp(v));(heapWrite ( v, 30 ) ;print(readHeapExp(v))))]
+SYM_TABLE:
+[v=(1 ,int)]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+1 -> 20
+
+*************************
+Step: 10
+ID: 6
+EXE_STACK:
+[(heapWrite ( v, 30 ) ;print(readHeapExp(v))), print(readHeapExp(v))]
+SYM_TABLE:
+[v=(1 ,int)]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+1 -> 20
+
+*************************
+Step: 11
+ID: 6
+EXE_STACK:
+[(heapWrite ( v, 30 ) ;print(readHeapExp(v))), print(readHeapExp(v))]
+SYM_TABLE:
+[v=(1 ,int)]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+1 -> 20
+
+*************************
+Step: 12
+ID: 6
+EXE_STACK:
+[(heapWrite ( v, 30 ) ;print(readHeapExp(v)))]
+SYM_TABLE:
+[v=(1 ,int)]
+OUT:
+[20] +
+FILE_TABLE: 
+[]
+HEAP: 
+1 -> 20
+
+*************************
+Step: 13
+ID: 6
+EXE_STACK:
+[(heapWrite ( v, 30 ) ;print(readHeapExp(v)))]
+SYM_TABLE:
+[v=(1 ,int)]
+OUT:
+[20] +
+FILE_TABLE: 
+[]
+HEAP: 
+1 -> 20
+
+*************************
+Step: 14
+ID: 6
+EXE_STACK:
+[print(readHeapExp(v)), heapWrite ( v, 30 ) ]
+SYM_TABLE:
+[v=(1 ,int)]
+OUT:
+[20] +
+FILE_TABLE: 
+[]
+HEAP: 
+1 -> 20
+
+*************************
+Step: 15
+ID: 6
+EXE_STACK:
+[print(readHeapExp(v)), heapWrite ( v, 30 ) ]
+SYM_TABLE:
+[v=(1 ,int)]
+OUT:
+[20] +
+FILE_TABLE: 
+[]
+HEAP: 
+1 -> 20
+
+*************************
+Step: 16
+ID: 6
+EXE_STACK:
+[print(readHeapExp(v))]
+SYM_TABLE:
+[v=(1 ,int)]
+OUT:
+[20] +
+FILE_TABLE: 
+[]
+HEAP: 
+1 -> 30
+
+*************************
+Step: 17
+ID: 6
+EXE_STACK:
+[print(readHeapExp(v))]
+SYM_TABLE:
+[v=(1 ,int)]
+OUT:
+[20] +
+FILE_TABLE: 
+[]
+HEAP: 
+1 -> 30
+
+*************************
+Step: 18
+ID: 6
+EXE_STACK:
+[]
+SYM_TABLE:
+[v=(1 ,int)]
+OUT:
+[20, 30] +
+FILE_TABLE: 
+[]
+HEAP: 
+1 -> 30

@@ -1,0 +1,130 @@
+
+*************************
+Step: 1
+ID: 1
+EXE_STACK:
+[(int v;;(v=2;;print(v)))]
+SYM_TABLE:
+[]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 2
+ID: 1
+EXE_STACK:
+[(v=2;;print(v)), int v;]
+SYM_TABLE:
+[]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 3
+ID: 1
+EXE_STACK:
+[(v=2;;print(v)), int v;]
+SYM_TABLE:
+[]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 4
+ID: 1
+EXE_STACK:
+[(v=2;;print(v))]
+SYM_TABLE:
+[v=0]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 5
+ID: 1
+EXE_STACK:
+[(v=2;;print(v))]
+SYM_TABLE:
+[v=0]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 6
+ID: 1
+EXE_STACK:
+[print(v), v=2;]
+SYM_TABLE:
+[v=0]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 7
+ID: 1
+EXE_STACK:
+[print(v), v=2;]
+SYM_TABLE:
+[v=0]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 8
+ID: 1
+EXE_STACK:
+[print(v)]
+SYM_TABLE:
+[v=2]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 9
+ID: 1
+EXE_STACK:
+[print(v)]
+SYM_TABLE:
+[v=2]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 10
+ID: 1
+EXE_STACK:
+[]
+SYM_TABLE:
+[v=2]
+OUT:
+[2] +
+FILE_TABLE: 
+[]
+HEAP: 

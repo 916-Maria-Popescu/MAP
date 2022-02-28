@@ -1,0 +1,182 @@
+
+*************************
+Step: 1
+ID: 2
+EXE_STACK:
+[(int a;;(int b;;(b=a + 1;;print(b))))]
+SYM_TABLE:
+[]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 2
+ID: 2
+EXE_STACK:
+[(int b;;(b=a + 1;;print(b))), int a;]
+SYM_TABLE:
+[]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 3
+ID: 2
+EXE_STACK:
+[(int b;;(b=a + 1;;print(b))), int a;]
+SYM_TABLE:
+[]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 4
+ID: 2
+EXE_STACK:
+[(int b;;(b=a + 1;;print(b)))]
+SYM_TABLE:
+[a=0]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 5
+ID: 2
+EXE_STACK:
+[(int b;;(b=a + 1;;print(b)))]
+SYM_TABLE:
+[a=0]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 6
+ID: 2
+EXE_STACK:
+[(b=a + 1;;print(b)), int b;]
+SYM_TABLE:
+[a=0]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 7
+ID: 2
+EXE_STACK:
+[(b=a + 1;;print(b)), int b;]
+SYM_TABLE:
+[a=0]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 8
+ID: 2
+EXE_STACK:
+[(b=a + 1;;print(b))]
+SYM_TABLE:
+[a=0, b=0]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 9
+ID: 2
+EXE_STACK:
+[(b=a + 1;;print(b))]
+SYM_TABLE:
+[a=0, b=0]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 10
+ID: 2
+EXE_STACK:
+[print(b), b=a + 1;]
+SYM_TABLE:
+[a=0, b=0]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 11
+ID: 2
+EXE_STACK:
+[print(b), b=a + 1;]
+SYM_TABLE:
+[a=0, b=0]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 12
+ID: 2
+EXE_STACK:
+[print(b)]
+SYM_TABLE:
+[a=0, b=1]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 13
+ID: 2
+EXE_STACK:
+[print(b)]
+SYM_TABLE:
+[a=0, b=1]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 14
+ID: 2
+EXE_STACK:
+[]
+SYM_TABLE:
+[a=0, b=1]
+OUT:
+[1] +
+FILE_TABLE: 
+[]
+HEAP: 

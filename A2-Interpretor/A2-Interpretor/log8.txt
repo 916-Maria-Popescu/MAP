@@ -1,0 +1,598 @@
+
+*************************
+Step: 1
+ID: 8
+EXE_STACK:
+[(int v;;(v=4;;(while ( v > 0 ) (print(v);v=v - 1;);print(v))))]
+SYM_TABLE:
+[]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 2
+ID: 8
+EXE_STACK:
+[(v=4;;(while ( v > 0 ) (print(v);v=v - 1;);print(v))), int v;]
+SYM_TABLE:
+[]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 3
+ID: 8
+EXE_STACK:
+[(v=4;;(while ( v > 0 ) (print(v);v=v - 1;);print(v))), int v;]
+SYM_TABLE:
+[]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 4
+ID: 8
+EXE_STACK:
+[(v=4;;(while ( v > 0 ) (print(v);v=v - 1;);print(v)))]
+SYM_TABLE:
+[v=0]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 5
+ID: 8
+EXE_STACK:
+[(v=4;;(while ( v > 0 ) (print(v);v=v - 1;);print(v)))]
+SYM_TABLE:
+[v=0]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 6
+ID: 8
+EXE_STACK:
+[(while ( v > 0 ) (print(v);v=v - 1;);print(v)), v=4;]
+SYM_TABLE:
+[v=0]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 7
+ID: 8
+EXE_STACK:
+[(while ( v > 0 ) (print(v);v=v - 1;);print(v)), v=4;]
+SYM_TABLE:
+[v=0]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 8
+ID: 8
+EXE_STACK:
+[(while ( v > 0 ) (print(v);v=v - 1;);print(v))]
+SYM_TABLE:
+[v=4]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 9
+ID: 8
+EXE_STACK:
+[(while ( v > 0 ) (print(v);v=v - 1;);print(v))]
+SYM_TABLE:
+[v=4]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 10
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;)]
+SYM_TABLE:
+[v=4]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 11
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;)]
+SYM_TABLE:
+[v=4]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 12
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), (print(v);v=v - 1;)]
+SYM_TABLE:
+[v=4]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 13
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), (print(v);v=v - 1;)]
+SYM_TABLE:
+[v=4]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 14
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), v=v - 1;, print(v)]
+SYM_TABLE:
+[v=4]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 15
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), v=v - 1;, print(v)]
+SYM_TABLE:
+[v=4]
+OUT:
+[] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 16
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), v=v - 1;]
+SYM_TABLE:
+[v=4]
+OUT:
+[4] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 17
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), v=v - 1;]
+SYM_TABLE:
+[v=4]
+OUT:
+[4] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 18
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;)]
+SYM_TABLE:
+[v=3]
+OUT:
+[4] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 19
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;)]
+SYM_TABLE:
+[v=3]
+OUT:
+[4] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 20
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), (print(v);v=v - 1;)]
+SYM_TABLE:
+[v=3]
+OUT:
+[4] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 21
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), (print(v);v=v - 1;)]
+SYM_TABLE:
+[v=3]
+OUT:
+[4] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 22
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), v=v - 1;, print(v)]
+SYM_TABLE:
+[v=3]
+OUT:
+[4] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 23
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), v=v - 1;, print(v)]
+SYM_TABLE:
+[v=3]
+OUT:
+[4] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 24
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), v=v - 1;]
+SYM_TABLE:
+[v=3]
+OUT:
+[4, 3] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 25
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), v=v - 1;]
+SYM_TABLE:
+[v=3]
+OUT:
+[4, 3] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 26
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;)]
+SYM_TABLE:
+[v=2]
+OUT:
+[4, 3] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 27
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;)]
+SYM_TABLE:
+[v=2]
+OUT:
+[4, 3] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 28
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), (print(v);v=v - 1;)]
+SYM_TABLE:
+[v=2]
+OUT:
+[4, 3] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 29
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), (print(v);v=v - 1;)]
+SYM_TABLE:
+[v=2]
+OUT:
+[4, 3] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 30
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), v=v - 1;, print(v)]
+SYM_TABLE:
+[v=2]
+OUT:
+[4, 3] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 31
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), v=v - 1;, print(v)]
+SYM_TABLE:
+[v=2]
+OUT:
+[4, 3] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 32
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), v=v - 1;]
+SYM_TABLE:
+[v=2]
+OUT:
+[4, 3, 2] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 33
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), v=v - 1;]
+SYM_TABLE:
+[v=2]
+OUT:
+[4, 3, 2] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 34
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;)]
+SYM_TABLE:
+[v=1]
+OUT:
+[4, 3, 2] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 35
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;)]
+SYM_TABLE:
+[v=1]
+OUT:
+[4, 3, 2] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 36
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), (print(v);v=v - 1;)]
+SYM_TABLE:
+[v=1]
+OUT:
+[4, 3, 2] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 37
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), (print(v);v=v - 1;)]
+SYM_TABLE:
+[v=1]
+OUT:
+[4, 3, 2] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 38
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), v=v - 1;, print(v)]
+SYM_TABLE:
+[v=1]
+OUT:
+[4, 3, 2] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 39
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), v=v - 1;, print(v)]
+SYM_TABLE:
+[v=1]
+OUT:
+[4, 3, 2] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 40
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), v=v - 1;]
+SYM_TABLE:
+[v=1]
+OUT:
+[4, 3, 2, 1] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 41
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;), v=v - 1;]
+SYM_TABLE:
+[v=1]
+OUT:
+[4, 3, 2, 1] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 42
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;)]
+SYM_TABLE:
+[v=0]
+OUT:
+[4, 3, 2, 1] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 43
+ID: 8
+EXE_STACK:
+[print(v), while ( v > 0 ) (print(v);v=v - 1;)]
+SYM_TABLE:
+[v=0]
+OUT:
+[4, 3, 2, 1] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 44
+ID: 8
+EXE_STACK:
+[print(v)]
+SYM_TABLE:
+[v=0]
+OUT:
+[4, 3, 2, 1] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 45
+ID: 8
+EXE_STACK:
+[print(v)]
+SYM_TABLE:
+[v=0]
+OUT:
+[4, 3, 2, 1] +
+FILE_TABLE: 
+[]
+HEAP: 
+
+*************************
+Step: 46
+ID: 8
+EXE_STACK:
+[]
+SYM_TABLE:
+[v=0]
+OUT:
+[4, 3, 2, 1, 0] +
+FILE_TABLE: 
+[]
+HEAP: 
